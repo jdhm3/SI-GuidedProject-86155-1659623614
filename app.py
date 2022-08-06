@@ -50,7 +50,7 @@ def predict():
             index=['Apple_Black_Rot','Apple_Healthy','Corn_Healthy','Corn_Northern_Leaf_Blight','Peach_Bacterial_spot','Peach_Healthy']
             preds=index[i]
             print(preds)
-            df=pd.read_excel('E:\\IBMProj\\precautions-veg.xlsx')
+            df=pd.read_excel('E:\\IBMProj\\precautions-fruits.xlsx')
             print(df.iloc[y[0]]['caution'])   
         # pred=np.argmax(model.predict(x),axis=1)
         # index=['Bear','Crow','Elephant','Rat']
