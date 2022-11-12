@@ -1,0 +1,6 @@
+requests
+tensorflow
+numpy
+pandas
+Flask
+os
